@@ -23,8 +23,6 @@ function convertRomanNumeral(string) {
     } else {
       result += numMap[current];
     }
-    console.log('prev:', prev);
-    console.log('current:', current);
     prev = current;
   }
   
